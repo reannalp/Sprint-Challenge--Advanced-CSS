@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    `An adaptive site uses % to resize elements as the viewport gets smaller. A fully responsive site uses media breakpoints with px, %, and em/rem to not only scale but also change elements as needed at specific breakpoints.`
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    `How the site is first designed. So a mobile first site is designed initially at a mobile scale and then breakpoints are set w/ mid-width and elements adjusted for tablet/desktop. Desktop first is the opposite, designed initially for desktop and then max-width breakpoints set for smaller devices.`
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    `It sets the default font size to 10px which allows for easy calculation of font sizes for use with rem. Like 1.6rem is clearly 16px with this method.`
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    `It's like a shorthand almost. It makes it so you can do complex CSS stuff in really simple ways and then the preprocessor will compile it into raw CSS for you.`
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    `Definitely parametric mixins. I love the ability to make those sort of "shortcuts". Everything is so much cleaner. I had some trouble with nesting media queries, but once I got the hang of it, it made sense.`
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -94,15 +104,15 @@ _You will know everything is working properly when you see the styles enabled fo
 
 ### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [X] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 
-* [ ] Add a viewport meta tag to the head of your index.html page
+* [X] Add a viewport meta tag to the head of your index.html page
 
-* [ ] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [X] [Review the provided home desktop design file](design-files/home-desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
 
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
+* [X] Navigation Styles: Use the `navigation.less` file for styling.
 
-* [ ] Main Content Styles: Use the `home-page.less` file for styling
+* [X] Main Content Styles: Use the `home-page.less` file for styling
 
 * [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
 

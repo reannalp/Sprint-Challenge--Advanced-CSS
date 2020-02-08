@@ -1,1 +1,26 @@
 // Mixins Here
+.imageStyle(@param){
+    border-radius: @param;
+    margin: auto;
+}
+
+.hStyle(@param: 300){
+    font-weight: @param;
+}
+.aStyle {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: @main-font-color;
+    font-size: 1.7rem;
+}
+
+.buttonStyle(@color, @background){
+    color: @color;
+    background: @background;
+}
+
+.flex(@d: row; @w: nowrap){
+    display: flex;
+    flex-direction: @d;
+    flex-wrap: @w;
+}
