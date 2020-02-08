@@ -83,8 +83,14 @@
         margin-bottom: 26px;
       }
 
-      // .btn {
-      // }
+      .btn {
+        .btnStyle(@porcelain; @btn-bg-color);
+        border: 1px solid @btn-bg-color;
+        &:hover {
+          .btnStyle(@btn-bg-color; @porcelain);
+        }
+
+      }
     }
 
     .walk-img {
