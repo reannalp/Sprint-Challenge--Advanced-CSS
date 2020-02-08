@@ -185,6 +185,10 @@ footer {
   background: #F6F6F6;
   border-bottom: 1px solid #F1F1F1;
   line-height: 1.5;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background: rgba(246, 246, 246, .8);
 }
 .navigation .logo {
   font-size: 4rem;
@@ -214,6 +218,9 @@ footer {
   .navigation nav {
     width: 80%;
   }
+}
+.home {
+  margin-top: 87px;
 }
 .home .intro #introImg {
   border-radius: 10px;
