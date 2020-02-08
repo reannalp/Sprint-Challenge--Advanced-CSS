@@ -232,24 +232,26 @@ footer {
 }
 .home .space-images {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: 100%;
+  justify-content: space-evenly;
+}
+.home .space-images img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images img {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .home .space-images .sky,
   .home .space-images .launch {
     display: none;
-  }
-  .home .space-images img {
-    width: 28%;
-    margin: 20px 2.5%;
-    border-radius: 20px;
-    height: 100%;
-  }
-}
-@media (max-width: 500px) and (max-width: 500px) {
-  .home .space-images img {
-    width: 100%;
   }
 }
 .home .visit-planets {
