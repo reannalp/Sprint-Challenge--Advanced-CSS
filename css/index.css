@@ -203,6 +203,12 @@ footer {
   color: #5E6164;
   font-size: 1.7rem;
   color: #454A59;
+  transition: 300ms ease;
+}
+.navigation nav a:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
 }
 @media (max-width: 500px) {
   .navigation nav {

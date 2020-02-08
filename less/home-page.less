@@ -19,6 +19,13 @@
     a {
       .aStyle();
       color: @nav-font;
+      transition: 300ms ease;
+
+      &:hover {
+        -webkit-transform: scale(.9);
+    		-ms-transform: scale(.9);
+		    transform: scale(.9);
+      }
     }
     @media @phone {
     width: 80%;
@@ -106,6 +113,7 @@
       .btn {
         .btnStyle(@porcelain; @btn-bg-color);
         border: 1px solid @btn-bg-color;
+
         &:hover {
           .btnStyle(@btn-bg-color; @porcelain);
         }
